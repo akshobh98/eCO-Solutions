@@ -1,0 +1,192 @@
+<html>
+<head>
+
+	
+	<style type="text/css">
+		.stuff{
+			padding-bottom: 0;
+		}
+
+		.bulb{
+			width: 10%;
+			padding-left: 45%;
+			padding-top: 0;
+		}
+
+		.buttons{
+			padding-left: 42%;
+			padding-top: 20px;
+		}
+
+		.on{
+			border: 2px solid white;
+			padding: 10px 10px;
+			background-color: #000022;
+			color:white;
+		}
+
+		.off{
+			border: 2px solid white;
+			padding: 10px 10px;
+			background-color: #000022;
+			color:white;
+		}
+
+		.title{
+			text-align: center;
+			padding-top: 5%;
+			font-size: 60px;
+			color:white;
+			text-shadow: 2px 1px 2px #000000;
+			border-bottom: 4px solid #006400;
+			background-color:#32CD32;
+			word-spacing: 5px;
+			letter-spacing: 5px;
+			text-shadow: 2px 2px 2px #000000;
+		}
+
+		.eco{
+			text-align: center;
+			padding-top: 0;
+			font-size: 30px;
+			border-top: 4px solid #006400;
+			padding-bottom: 1%;
+			border-bottom: 4px solid #006400;
+			padding-top: 50px;
+			background-color: #006400;
+			font-family: Bodoni MT, Serif;
+			text-shadow: 1px 1px 1px #000000;
+			color:white;
+			border-bottom: 2px solid black;
+
+		}
+
+		.tip{
+			font-size: 20px;
+			border: 2px solid #006400;
+			margin-right: 70%;
+			color:white;
+			background-color: #32CD32;
+			text-align: center;
+
+		}
+
+		.button2{
+			padding-left: 40px;
+		}
+
+		.button3{
+			padding-left: 50px;
+		}
+
+		.image{
+			width:10px 10px;
+		}
+
+		.japanese{
+			padding-top: 0;
+			padding-bottom: 10px;
+			font-size:24px;
+			font-family: papyrus, fantasy;
+			border-bottom: 2px solid black;
+		}
+
+		.friendly{
+			text-align: center;
+			font-size: 20px;
+			text-shadow: 1px 1px 1px #000000;
+			background-color: #000022;
+			box-shadow: 2px 2px 2px #000000;
+			color:white;
+		}
+
+		.friendly:hover{
+			background-color: #006400;
+		}
+
+		.scene{
+			width:100%;
+			border-bottom: 2px solid black;
+		}
+
+		.know{
+			padding-left: 30%;
+			padding-top: 2%;
+		}
+
+		.know2{
+			padding-left: 5%;
+			
+		}
+
+		.english{
+			padding: 10px 10px;
+			width: 30%;
+			background-color: #006400;
+			color:white;
+			border:1px solid black;
+		}
+
+		.japan{
+			padding: 10px 10px;
+			width: 30%;
+			background-color: #006400;
+			color:white;
+			border:1px solid black;
+		}
+
+
+
+		
+	</style>
+
+	<script type="text/javascript">
+		
+		function onoff(){
+		var on = document.getElementById('on')
+		on.src = "On.png"
+	}
+
+		function offOn(){
+			var off = document.getElementById('on')
+			off.src = "Off.png"
+		}
+	
+	</script>
+	
+
+</head>
+<title>eCO™</title>
+
+<body>
+
+
+	<div class="stuff">
+		<span class="think"><p class="title"> eCO Solutions© <br class="break" > Making the World a Better Place</b></p>	</span>
+		<div class="major">
+			<img src="On.png" class="bulb" id="on" alt="bulb on">
+	<div class="buttons">
+		<span class="button1"> <p class="tip"> Pro Tip : Don't keep it switched on for long!</p> <span class="button3"><input type="button" name="switch" value="On" onclick="onoff()" class="on"> </span></span>
+		<span class="button2"><input type="button" name="switch" value="Off" onclick="offOn()" class="off"></span>
+	</div>
+		<p class="eco">eCO Solutions IS AN ORGANIZATION FOCUSED TOWARDS MANAGING ENVIRONMENTAL RESOURCES BETTER  
+				</p> <br> <p class="japanese">自然環境（しぜんかんきょう、英: natural environment）とは、人工によらない、自然元来の構成物により形成される環境をいう。動物・植物などの生物界、その生育・生息基盤となる地形・地質、これらが織りなす生態系や景観、人と自然との触れ合いのための活動の場などを範疇として扱うことが多い。
+
+環境影響評価における「自然的環境」としては、大気質、音、匂いなどの大気環境、水質などの水環境、土壌、地形・地質に上記の動物、植物、生態系などを加えた範疇としている。 過去の開発により失われた自然環境を取り戻すことを主な目的として、2002年12月議員立法により自然再生推進法が制定され、国はこれに基づく自然再生基本方針を定めている。</p>
+	</div>
+	</div>
+	<p class="friendly">Switch to a environment friendly with eCO SOLUTIONS. 
+		<br> eCO Solutions is a Tokyo based company designed to create eco-friendly solutions to factory usage. eCO Solutions has gathered supporters and investors across Japan as well as different parts of the world and the mission continues to grow stronger. <br> eCO Solutions has an adroit team of engineers dedicated to make the environment better. <br> To Join us, follow the buttons below and help make the world a better place! </p>
+	<img src="scene.jpg" class="scene">
+
+	<div class="know">
+		<span class="know1"><input type="button" name="english" value="KNOW MORE/もっと知る" class="english"></span> 
+		<span class="know2"><input type="button" name="japan" value="JOIN US/参加しませんか" class="japan"> </span>
+	</div>
+
+	
+	
+	
+
+
+</body>
